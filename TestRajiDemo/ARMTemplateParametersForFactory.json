@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "TestRajiDemo"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
 		"Sharing-IR1_properties_typeProperties_linkedInfo_resourceId": {
 			"value": "/subscriptions/cd4b260c-7f26-46c3-a041-00de7c8a18f7/resourcegroups/AZURESAMPLE_STORAGE/providers/Microsoft.DataFactory/factories/datafactoryRajitha/integrationruntimes/IR-selfhostR"
 		}

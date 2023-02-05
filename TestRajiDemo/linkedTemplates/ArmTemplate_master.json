@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "TestRajiDemo"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
+		"AzureBlobStorage2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
+		},
 		"Sharing-IR1_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/cd4b260c-7f26-46c3-a041-00de7c8a18f7/resourcegroups/AZURESAMPLE_STORAGE/providers/Microsoft.DataFactory/factories/datafactoryRajitha/integrationruntimes/IR-selfhostR"
@@ -37,6 +45,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage2_connectionString": {
+						"value": "[parameters('AzureBlobStorage2_connectionString')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"Sharing-IR1_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('Sharing-IR1_properties_typeProperties_linkedInfo_resourceId')]"
