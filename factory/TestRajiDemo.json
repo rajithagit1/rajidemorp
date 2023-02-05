@@ -1,0 +1,9 @@
+{
+	"name": "TestRajiDemo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "63acdd41-8656-44a3-a917-33259cec29a7",
+		"tenantId": "9a5e2459-f3ff-43c4-ae93-b4f948142f62"
+	}
+}
