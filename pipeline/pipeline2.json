@@ -1,0 +1,8 @@
+{
+	"name": "pipeline2",
+	"properties": {
+		"annotations": [
+			"sales"
+		]
+	}
+}
