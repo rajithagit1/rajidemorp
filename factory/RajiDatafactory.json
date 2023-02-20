@@ -1,0 +1,9 @@
+{
+	"name": "RajiDatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "806261ec-08ab-4ec9-8814-386066a0ae66",
+		"tenantId": "6ea95da5-9709-4cbe-a067-90c282355390"
+	}
+}
