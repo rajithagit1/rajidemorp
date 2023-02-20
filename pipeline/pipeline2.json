@@ -3,17 +3,21 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Wait1",
-				"type": "Wait",
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 1
+					"pipeline": {
+						"referenceName": "pipeline1",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
 				}
 			}
 		],
-		"annotations": [
-			"sales"
-		]
-	}
+		"annotations": [],
+		"lastPublishTime": "2023-02-15T11:40:03Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
